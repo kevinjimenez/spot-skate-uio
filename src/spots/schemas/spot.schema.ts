@@ -1,1 +1,1 @@
-export class SpotSchema {}
+export class Spot {}

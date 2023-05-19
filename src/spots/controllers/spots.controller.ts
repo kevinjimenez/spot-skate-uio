@@ -7,9 +7,9 @@ import {
   Param,
   Delete,
 } from '@nestjs/common';
-import { SpotsService } from './spots.service';
-import { CreateSpotDto } from './dto/create-spot.dto';
-import { UpdateSpotDto } from './dto/update-spot.dto';
+import { SpotsService } from '../services/spots.service';
+import { CreateSpotDto } from '../dto/create-spot.dto';
+import { UpdateSpotDto } from '../dto/update-spot.dto';
 
 @Controller('spots')
 export class SpotsController {

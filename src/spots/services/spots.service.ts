@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { CreateSpotDto } from './dto/create-spot.dto';
-import { UpdateSpotDto } from './dto/update-spot.dto';
+import { CreateSpotDto } from '../dto/create-spot.dto';
+import { UpdateSpotDto } from '../dto/update-spot.dto';
 
 @Injectable()
 export class SpotsService {

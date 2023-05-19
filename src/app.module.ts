@@ -3,7 +3,7 @@ import { LoggerModule } from 'nestjs-pino';
 import { HealthModule } from './health/health.module';
 import { LocationsModule } from './locations/locations.module';
 import { SpotsModule } from './spots/spots.module';
-import pino from 'pino';
+// import pino from 'pino';
 
 @Module({
   imports: [
