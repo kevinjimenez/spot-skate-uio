@@ -1,3 +1,4 @@
+import { WebhookModule } from './webhook/webhook.module';
 import { Module } from '@nestjs/common';
 import { LoggerModule } from 'nestjs-pino';
 import { HealthModule } from './health/health.module';
@@ -32,6 +33,7 @@ import { SpotsModule } from './spots/spots.module';
     HealthModule,
     LocationsModule,
     SpotsModule,
+    WebhookModule,
   ],
   controllers: [],
   providers: [],
